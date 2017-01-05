@@ -1,0 +1,63 @@
+div {
+    margin : 10px 20px;
+    display:inline-block;
+}
+
+label{
+    display:block;
+    padding:10px 0;
+}
+h1{
+    width: 463px;
+    margin:auto;
+    padding-bottom:10px;
+}
+
+form[name="newContactForm"]{
+    display:block;
+    border:2px solid #000;
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #d67714;
+
+}
+
+ul{
+    list-style-type:none;
+}
+li{
+    display:inline-block;
+    margin:0 10px;
+    color:#fff;
+}
+
+button{
+    border:1px solid #eee;
+    border-radius:3px;
+
+}
+#gender{
+    display:block;
+    margin:auto;
+    width:250px;
+}
+
+#submit{
+    background-color:#92f65f;
+    color:white;
+}
+#reset{
+    background-color:#aa022a;
+    color:white;
+}
+
+#container{
+    margin: auto;
+    display: block;
+    width: 369px;
+}
+
+body{
+    background-color: #31b0d5
+}

@@ -1,54 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Free Web tutorials">
+    <meta name="description" content="Welcome to my website find my full profile at this page.">
     <meta name="keywords" content="Pandu Ranga Reddy Aluvala, Pandu Ranga Reddy, Pandu Aluvala, .net Developer, Software Engineer, pandualuvala, pandualuvala.com, Master's degree, Web Developer, C# Developer, MVC Developer, Full Stack Developer">
     <meta name="author" content="Pandu Ranga Reddy Aluvala">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel=icon" type ="image/png" href ="http://pngimg.com/upload/grass_PNG4930.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href = "css/style.css" />
     <title>
         Pandu Ranga Reddy Aluvala - Programming enthusiast, Engineer, Traveller
     </title>
 </head>
+<!-- main body  -->
+<!-- body is the rendering part of html -->
 <body>
+<!-- main article for forms -->
 <article>
+    <!-- page header -->
     <header>
-        <h1> welcome to my page</h1>
+        <h1>Pandu Ranga Reddy Aluvala</h1>
     </header>
     <section>
-        <form name="newLicenseForm">
-            <div>
+        <div id ="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>About</li>
+                <li>Projects</li>
+                <li>Contact</li>
+                <li>Blog</li>
+            </ul>
+        </div>
+
+        <form name="newContactForm">
+            <div class="cont">
                 <label for="firstName"> First Name:</label>
-                <input type = "text" id = "firstName" name="firstname" placeholder="Enter Your First Name"/>
+                <input type = "text" id = "firstName" name="firstName" placeholder="Enter Your First Name"/>
             </div>
             <br />
-           <div>
+            <div class="cont">
                <label for="lastName">Last Name: </label>
-               <input type="text" id="lastname" placeholder="Enter Your Last Name" name="firstname">
-           </div>
+               <input type="text" id="lastName" placeholder="Enter Your Last Name" name="lastName">
+                </div>
             <br />
-            <div>
+                <div>
                 <label for="phoneNumber">Phone Number: </label>
-                <input type="text" id="phoneNumber" placeholder="Enter Your Phone Number" name="phonenumber">
-            </div>
+                <input type="text" id="phoneNumber" placeholder="Enter Your Phone Number" name="phoneNumber">
+                </div>
             <br />
-            <div>
-            <label for="gender" > Gender :</label>
-            <div id = "gender">
+            <div id ="genders">
+            <!-- gender -->
+            <label for ="gender"> Applicant's Gender Gender :</label>
+                <div id ="gender">
                 <label for="male">Male:</label>
-                <input type="radio" name ="gender" id="male" value="gender"/>
-                <label for="female">Male:</label>
-                <input type="radio" name ="gender" id="female" value="gender" />
+                <input type="radio" name ="gender" id="male"/>
+                <label for="female">Female:</label>
+                <input type="radio" name ="gender" id="female"/>
+                </div>
             </div>
+            <div>
+                <label for="seniorCitizen">Is Applicant Senior Citizen?</label>
+                <input type="checkbox" id = "seniorCitizen" name = "seniorCitizen" checked="true" />
             </div>
+
+            <!-- button submit type -->
+            <button type="submit" id = "submit" name ="submit"><span>submit</span></button>
+
+            <!-- button reset type -->
+            <button type = "reset" id="reset"><span>Cancel</span></button>
         </form>
     </section>
+
+    <!-- footer of the page -->
     <footer> I am at the bottom </footer>
 </article>
 </body>
